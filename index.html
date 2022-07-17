@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Muisc Player</title>
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="music.png" alt="Music PLayer">Music Player</li>
+        </ul>
+    </nav>
+        <div class="container">
+            <div class="songList">
+                <h3>My Playlist</h3>
+
+                <div class="songContainer"> 
+                    <div class="songItem">
+                        <img src="banners/saveyourtears.jpg" alt="Save your Tears">
+                        <span class="song">Save your Tears</span>
+                            <span class="TimeStamp">4:08 
+                                <i id="1" class="fa-solid songItemPlay fa-circle-play"></i>
+                            </span> 
+                            
+                    </div>
+
+                    <div class="songItem">
+                        <img src="banners/saveyourtears.jpg" alt="Save your Tears">
+                        <span class="song">Save your Tears</span>
+                            <span class="TimeStamp">4:01 
+                                <i id="2" class="fa-solid songItemPlay fa-circle-play"></i>
+                            </span>
+                        
+                    </div>
+
+                    <div class="songItem">
+                        <img src="banners/saveyourtears.jpg" alt="Save your Tears">
+                        <span class="song">Save your Tears</span>
+                            <span class="TimeStamp">3:47 
+                                <i id="3" class="fa-solid songItemPlay fa-circle-play"></i>
+                            </span>
+                        
+                    </div>
+
+                    <div class="songItem">
+                        <img src="banners/saveyourtears.jpg" alt="Save your Tears">
+                        <span class="song">Save your Tears</span>
+                            <span class="TimeStamp">2:47
+                                <i id="4" class="fa-solid songItemPlay fa-circle-play"></i>
+                            </span>
+                        
+                    </div>
+
+                    <div class="songItem">
+                        <img src="banners/saveyourtears.jpg" alt="Save your Tears">
+                        <span class="song">Save your Tears</span>
+                            <span class="TimeStamp">4:44 
+                                <i id="5" class="fa-solid songItemPlay fa-circle-play"></i>
+                            </span>
+                        
+                    </div>
+
+                    <div class="songItem">
+                        <img src="banners/saveyourtears.jpg" alt="Save your Tears">
+                        <span class="song">Save your Tears</span>
+                            <span class="TimeStamp">3:35
+                                <i id="6" class="fa-solid songItemPlay fa-circle-play"></i>
+                            </span>
+                        
+                    </div>
+
+                    <div class="songItem">
+                        <img src="banners/saveyourtears.jpg" alt="Save your Tears">
+                        <span class="song">Save your Tears</span>
+                            <span class="TimeStamp">3:56
+                                <i id="7" class="fa-solid songItemPlay fa-circle-play"></i>
+                            </span>
+                        
+                    </div>
+
+                </div>
+            </div>
+            <div class="songBanner">
+                <img class="poster" src="music.png" alt="">
+            </div>
+        </div>
+
+        <div class="bottom">
+            <input type="range" id="progressbar" min="0" max="100" value="0">
+            <div class="icons">
+                <i class="fa-solid fa-backward" id="backward"></i>
+                <i class="fa-solid fa-circle-play" id="masterPlay"></i>
+                <i class="fa-solid fa-forward" id="forward"></i>
+            </div>
+        </div>
+    <script src="main.js"></script>
+    <script src="https://kit.fontawesome.com/11a4a3bd53.js" crossorigin="anonymous"></script>
+</body>
+</html>

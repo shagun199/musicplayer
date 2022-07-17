@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@500&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: #26418f;
+    font-family: 'Maven Pro', sans-serif;
+    background-image: url('back.jpg')
+}
+
+nav{
+    position: sticky;      
+    top: 0;
+}
+
+nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+    background-color: rgba(0, 0, 0, 0.521);
+    color: rgb(255, 255, 255);
+}
+
+.brand{
+    display: flex;
+    align-items: center;
+    font-weight: bolder;
+    font-size: 1.2rem;
+}
+
+.brand img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    padding-left: 10px;
+    padding-right: 20px;
+}
+
+nav ul li  {
+    padding: 0 15px;
+}
+
+.container{
+    display: flex;
+    height: 70vh;
+    background-color: rgba(0, 0, 0, 0.747);
+    display: flex;
+    width: 70%;
+    margin: 10px auto;
+    padding: 30px;
+    border-radius: 10px;   
+    color: rgb(255, 255, 255);
+}
+
+.songContainer{
+    margin-top: 20px;
+}
+
+.songItem{
+    height: 40px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    color: black;
+    border-radius: 40px;
+    padding: 0px 10px;
+    margin: 18px;
+}
+
+.songItem:hover{
+    background-color: rgb(202, 200, 200);
+    color: black;
+}
+
+.songItem img{
+    width: 30px;
+    margin-left: 5px;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+
+.TimeStamp {
+    padding: 0px;
+    margin-left: 30px;
+}
+
+.fa-solid{
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.bottom{
+    position: sticky;
+    height: 10vh;
+    background-color: rgba(0, 0, 0, 0.747);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#fff;
+    flex-direction: column;
+    bottom: 0;
+}
+
+.bottom #progressbar{
+    width: 80%;
+    cursor: pointer;
+}
+
+.icons{
+    margin: 5px;
+    cursor: pointer;
+}
+
+.songBanner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.poster{
+    width: 60%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
